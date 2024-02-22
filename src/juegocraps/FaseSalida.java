@@ -2,6 +2,7 @@ package juegocraps;
 
 public class FaseSalida {
 	// primer commit
+	// segundo commit
 	// atributos
     private int contFaseSalida = 0;
     private int contPierde = 0;
