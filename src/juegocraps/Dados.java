@@ -6,7 +6,7 @@ public class Dados {
 
     // constructores
     public Dados() {}
-
+    //
     /**
      * Función que devuelve un entero que es la suma de la cara de dos dados.
      * @return entero entree 1 y 12
