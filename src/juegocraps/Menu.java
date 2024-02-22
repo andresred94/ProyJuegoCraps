@@ -1,5 +1,6 @@
 package juegocraps;
 public class Menu {
+	// primer commit
 	// atributos
     private int apuestas = 0;
 
