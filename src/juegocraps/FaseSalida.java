@@ -5,7 +5,7 @@ public class FaseSalida {
     private int contFaseSalida = 0;
     private int contPierde = 0;
     private int miPunto;
-    private String estado;
+    private String estado;// commit
     // setters y Getters
     public int getMiPunto () {
         return miPunto;

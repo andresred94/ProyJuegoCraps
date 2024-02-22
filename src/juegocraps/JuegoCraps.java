@@ -7,7 +7,7 @@ public class JuegoCraps {
     private static Dados d1;
     private static Menu m1;
     private static FaseSalida fsalida;
-    private static FasePunto fpunto;
+    private static FasePunto fpunto;// commit
     public JuegoCraps(){}
     /**
      * Función principal que ejecuta el juego
@@ -18,7 +18,7 @@ public class JuegoCraps {
         char opEscogida;
         do {
             m1 = new Menu ();
-            fsalida = new FaseSalida ();
+            fsalida = new FaseSalida ();// Segundo Commit
             fpunto = new FasePunto ();
             int contGanaFasePunto = 0;
             int contPierdeFasePunto = 0;
