@@ -8,6 +8,7 @@ public class FasePunto {
     private int dados;// segundo commit
     //tercer commit
     // cuarto commit
+    //quinto commit
     // setters y getters
     public int getContPierdeFasePunto () {
         return contPierdeFasePunto;
