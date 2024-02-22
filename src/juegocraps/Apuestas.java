@@ -14,12 +14,6 @@ public class Apuestas {
     public void setCantApuestas ( int cantApuestas ) {
         this.cantApuestas = cantApuestas;
     }
-    //primer commit
-    // segundo commit
-    // tercer commit
-    // cuarto commit
-    // quinto commit
-    // constructores
     public Apuestas() {}
     
     public Apuestas(int numApostados){

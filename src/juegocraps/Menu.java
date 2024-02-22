@@ -1,10 +1,6 @@
 package juegocraps;
 public class Menu {
-	// primer commit
-	// segundo commit
-	// tercer commit
-
-	// atributos
+		// atributos
     private int apuestas = 0;
 
     // setters y getters

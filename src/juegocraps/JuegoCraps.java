@@ -1,17 +1,19 @@
 package juegocraps;
 import java.util.Scanner;
+/**
+ * @author Andrés Bravo - Sayuri Reyes
+ * @version Beta 1.0.1
+ */
 public class JuegoCraps {
-	// atributos // primer commit
-	// segundo commit
-	// tercer commit
-
+	// atributos
 	public static Scanner lector = new Scanner ( System.in );
     public static String estadoJuego = " ";
     private static Apuestas a1;
     private static Dados d1;
     private static Menu m1;
     private static FaseSalida fsalida;
-    private static FasePunto fpunto;// commit
+    private static FasePunto fpunto;
+    
     public JuegoCraps(){}
     /**
      * Función principal que ejecuta el juego

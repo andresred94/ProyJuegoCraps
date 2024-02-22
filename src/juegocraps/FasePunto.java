@@ -4,11 +4,8 @@ public class FasePunto {
 	// atributos
     private int contGanaFasePunto = 0;
     private int contPierdeFasePunto = 0;
-    private int punto;// primer commit
-    private int dados;// segundo commit
-    //tercer commit
-    // cuarto commit
-    //quinto commit
+    private int punto;
+    private int dados;
     // setters y getters
     public int getContPierdeFasePunto () {
         return contPierdeFasePunto;

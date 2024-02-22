@@ -1,15 +1,11 @@
 package juegocraps;
 
 public class FaseSalida {
-	// primer commit
-	// segundo commit
-	// tercer commit
-	
 	// atributos
     private int contFaseSalida = 0;
     private int contPierde = 0;
     private int miPunto;
-    private String estado;// commit
+    private String estado;
     // setters y Getters
     public int getMiPunto () {
         return miPunto;
