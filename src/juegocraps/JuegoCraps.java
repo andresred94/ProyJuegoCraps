@@ -17,6 +17,7 @@ public class JuegoCraps {
     public JuegoCraps(){}
     /**
      * Función principal que ejecuta el juego
+     * Pendiente de controlar errores y realizar más tests
      */
     public static void main ( String[] args ) {
         // inicializamos variables
