@@ -14,6 +14,7 @@ public class Apuestas {
     public void setCantApuestas ( int cantApuestas ) {
         this.cantApuestas = cantApuestas;
     }
+    //primer commit
     // segundo commit
     // constructores
     public Apuestas() {}

@@ -3,7 +3,7 @@ package juegocraps;
 public class Dados {
 	// Atributos
     public int sumaDeDados;
-
+    // segundo commit
     // constructores
     public Dados() {}
     // segundo commit
