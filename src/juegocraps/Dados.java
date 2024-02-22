@@ -5,6 +5,7 @@ public class Dados {
     public int sumaDeDados;
     // segundo commit
     // tercer commit
+    // cuarto commit
     // constructores
     public Dados() {}
     // segundo commit
