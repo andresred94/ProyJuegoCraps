@@ -40,7 +40,7 @@ public class Menu {
     
     // <-- [ Metodos de la clase ]-->
     /**
-     * Función que devuelve una cantidad de apuestas
+     * Función que devuelve una cantidad de apuestas ¿Es realmente util?
      * @param numApuestas
      * @return
      */
