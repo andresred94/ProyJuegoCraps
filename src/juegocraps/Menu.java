@@ -1,16 +1,20 @@
 package juegocraps;
 public class Menu {
-		// atributos
+	// <-- [ Atributos ]-->
     private int apuestas = 0;
-
-    // setters y getters
+    // <-- [ Setters y Getters ]-->
+    /**
+     * Funcíon que controla que el número de apuesta sea correcto. 
+     * @return -1 si no es correcto.
+     * @param numApu entero
+     */
     public void setApuestas (int numApu ){
     	if ( numApu <= 0 ) {
     		apuestas = -1;
     	} else {
     		apuestas = numApu;
     	}
-    }
+    }// fin setApuestas
 
     public int getApuestas (){return apuestas;}
     // constructores    
@@ -33,9 +37,15 @@ public class Menu {
         System.out.printf ( " * Si ganas en la fase de punto, se cuentan la cantidad de veces. Y se multiplica x 3.%n" );
            	
     }
-    // metodos de la clase
+    
+    // <-- [ Metodos de la clase ]-->
+    /**
+     * Función que devuelve una cantidad de apuestas
+     * @param numApuestas
+     * @return
+     */
     public int menu (int numApuestas){
         setApuestas (numApuestas);
         return apuestas;
-    }
-}//commit
+    }// fin menu
+}// fin-class Menu

@@ -1,13 +1,14 @@
 package juegocraps;
 
 public class Dados {
-	// Atributos
+	// <-- [ Atributos ]-->
     public int sumaDeDados;
-    // constructores
+    // <-- [ Constructores ]-->
     public Dados() {}
-    // segundo commit
+    
+    // <-- [ Metodos de la clase ]-->
     /**
-     * Función que devuelve un entero que es la suma de la cara de dos dados.
+     * Función que int un entero que es la suma de la cara de dos dados.
      * @return entero entree 1 y 12
      */
     public int tirarDados () {
@@ -19,5 +20,5 @@ public class Dados {
         System.out.printf ( "El tirador lanza los dados y...%n" );
         System.out.printf ( "La suma de los dados es: %d + %d = %d%n" , dado1 , dado2 , suma );
         return suma;
-    }
-}
+    }// fin tirarDados
+}// fin-class Dados

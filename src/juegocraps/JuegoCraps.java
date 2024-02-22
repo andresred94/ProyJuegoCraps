@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @version Beta 1.0.1
  */
 public class JuegoCraps {
-	// atributos
+	// <-- [ Atributos ]-->
 	public static Scanner lector = new Scanner ( System.in );
     public static String estadoJuego = " ";
     private static Apuestas a1;
@@ -13,7 +13,7 @@ public class JuegoCraps {
     private static Menu m1;
     private static FaseSalida fsalida;
     private static FasePunto fpunto;
-    
+    // <-- [ Constructores ]-->
     public JuegoCraps(){}
     /**
      * Función principal que ejecuta el juego

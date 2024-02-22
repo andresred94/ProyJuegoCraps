@@ -1,12 +1,13 @@
 package juegocraps;
 
 public class FasePunto {
-	// atributos
+	// <-- [ Atributos ]-->
     private int contGanaFasePunto = 0;
     private int contPierdeFasePunto = 0;
     private int punto;
     private int dados;
-    // setters y getters
+    
+    // <-- [ Setters y Getters ]-->
     public int getContPierdeFasePunto () {
         return contPierdeFasePunto;
     }
@@ -22,12 +23,13 @@ public class FasePunto {
 		return contGanaFasePunto;
 	}
 	
-	// contrusctores
+    // <-- [ Constructores ]-->
     public FasePunto ( ) {}
-    // metodos de la clase
     
+    // <-- [ metodos de la clase ]-->
     /**
-     * Método que controla la fase de punto del juego
+     * Método que controla la fase de punto del juego.
+     * Evalua el atributo <estadoJuego> de la clase JuegoCraps
      */
     public void fasePunto () {
     	if ( dados == 7 ) {
