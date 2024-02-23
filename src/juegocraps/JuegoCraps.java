@@ -2,6 +2,7 @@ package juegocraps;
 import java.util.Scanner;
 /**
  * @author Andrés Bravo - Sayuri Reyes
+ * @branch rama_Backup
  * @version Beta 1.0.1
  */
 public class JuegoCraps {
