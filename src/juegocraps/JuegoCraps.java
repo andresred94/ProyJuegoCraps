@@ -6,7 +6,6 @@ import java.util.Scanner;
  */
 public class JuegoCraps {
 	// <-- [ Atributos ]-->
-	// rama_Desarrollo commit 1
 	public static Scanner lector = new Scanner ( System.in );
     public static String estadoJuego = " ";
     private static Apuestas a1;
@@ -15,6 +14,7 @@ public class JuegoCraps {
     private static FaseSalida fsalida;
     private static FasePunto fpunto;
     // <-- [ Constructores ]-->
+    // Se realiza una mejora en la clase JuegoCraps
     public JuegoCraps(){}
     /**
      * Función principal que ejecuta el juego
