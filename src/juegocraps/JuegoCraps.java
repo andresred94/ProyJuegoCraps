@@ -25,7 +25,7 @@ public class JuegoCraps {
         char opEscogida;
         do {
             m1 = new Menu ();
-            fsalida = new FaseSalida ();// Segundo Commit
+            fsalida = new FaseSalida ();
             fpunto = new FasePunto ();
             int contGanaFasePunto = 0;
             int contPierdeFasePunto = 0;
