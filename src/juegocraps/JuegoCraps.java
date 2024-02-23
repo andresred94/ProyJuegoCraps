@@ -2,7 +2,7 @@ package juegocraps;
 import java.util.Scanner;
 /**
  * @author Andrés Bravo - Sayuri Reyes
- * @version Beta 1.0.1
+ * @version Beta 1.0.5
  * @branch master
  */
 public class JuegoCraps {
