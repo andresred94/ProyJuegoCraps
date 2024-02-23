@@ -12,7 +12,8 @@ public class JuegoCraps {
     private static Dados d1;
     private static Menu m1;
     private static FaseSalida fsalida;
-    private static FasePunto fpunto;// commit
+    private static FasePunto fpunto;
+    // <-- [ Constructores ]-->
     public JuegoCraps(){}
     /**
      * Función principal que ejecuta el juego
