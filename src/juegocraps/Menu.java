@@ -17,7 +17,7 @@ public class Menu {
     }// fin setApuestas
 
     public int getApuestas (){return apuestas;}
-    // <-- [ Constructores ]-->    
+    // <-- [ Constructores ]-->   
     public Menu(){
     	System.out.printf ( "\u001B[35m¡Bienvenido al juego de Craps!%n\u001B[0m" );// Error de sintaxis 2
         System.out.printf ( "El objetivo es predecir el resultado de dos dados lanzados.%n" );

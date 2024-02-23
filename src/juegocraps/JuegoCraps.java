@@ -15,10 +15,10 @@ public class JuegoCraps {
     private static FaseSalida fsalida;
     private static FasePunto fpunto;
     // <-- [ Constructores ]-->
+    // Se realiza una mejora en la clase JuegoCraps
     public JuegoCraps(){}
     /**
      * Función principal que ejecuta el juego
-     * Pendiente de controlar errores y realizar más tests
      */
     public static void main ( String[] args ) {
         // inicializamos variables
@@ -26,7 +26,7 @@ public class JuegoCraps {
         char opEscogida;
         do {
             m1 = new Menu ();
-            fsalida = new FaseSalida ();
+            fsalida = new FaseSalida ();// Segundo Commit
             fpunto = new FasePunto ();
             int contGanaFasePunto = 0;
             int contPierdeFasePunto = 0;
@@ -50,7 +50,7 @@ public class JuegoCraps {
                 System.out.print ( " Ingresa en número que quieres apostar = " );
                 int n = lector.nextInt ();
                 int flagErr = a1.numerosApostados ( n ) ;
-                if (flagErr == 0) {// comprobar este flag
+                if (flagErr == 0) {
                 	a1.getApuestas ()[i] = n;	
                 } 
                 while (flagErr == -1) {
