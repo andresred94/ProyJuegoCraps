@@ -1,11 +1,8 @@
 package juegocraps;
 import java.util.Scanner;
 public class JuegoCraps {
-	// atributos // primer commit
-	// segundo commit
-	// tercer commit
+	// <-- [ Atributos ]-->
 	// rama_Desarrollo commit 1
-
 	public static Scanner lector = new Scanner ( System.in );
     public static String estadoJuego = " ";
     private static Apuestas a1;
