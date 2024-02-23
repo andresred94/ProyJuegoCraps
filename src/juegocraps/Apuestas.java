@@ -1,10 +1,10 @@
 package juegocraps;
 
 public class Apuestas {
-	// atributos
+	// <-- [ Atributos ]-->
     private int[] apuestas;
     private int cantApuestas;
-    // getters y setters
+    // <-- [ Setters y Getters ]-->
     public int[] getApuestas () {
         return apuestas;
     }
@@ -14,19 +14,16 @@ public class Apuestas {
     public void setCantApuestas ( int cantApuestas ) {
         this.cantApuestas = cantApuestas;
     }
-    //primer commit
-    // segundo commit
-    // tercer commit
-    // cuarto commit
-    // quinto commit
-    // constructores
+    
+    // <-- [ Constructores ]-->
     public Apuestas() {}
     
     public Apuestas(int numApostados){
         cantApuestas = numApostados;
         apuestas = new int[cantApuestas];
     }
-    // metodos de la clase
+    
+    // <-- [ Metodos de la clase ]-->
     public int numerosApostados (int nUsr){
         int rps = 0;
         for ( int i = 0 ; i < apuestas.length ; i++ ) {
@@ -35,5 +32,5 @@ public class Apuestas {
             }
         }// fin-fori
         return rps;
-    }
-}
+    }// fin numerosApostados
+}// fin-class Apuestas

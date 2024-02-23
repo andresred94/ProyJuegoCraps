@@ -1,21 +1,16 @@
 package juegocraps;
 
 public class FaseSalida {
-	// primer commit
-	// segundo commit
-	// tercer commit
-	
-	// atributos
+	// <-- [ Atributos ]-->
     private int contFaseSalida = 0;
     private int contPierde = 0;
     private int miPunto;
-    private String estado;// commit
-    // setters y Getters
+    private String estado;
+    // <-- [ Setters y Getters ]-->
     public int getMiPunto () {
         return miPunto;
     }
     
-
     public void setMiPunto(int miPunto) {
 		this.miPunto = miPunto;
 	}
@@ -28,10 +23,10 @@ public class FaseSalida {
         return contFaseSalida;
     }
 
-    // constructores
+    // <-- [ Constructores ]-->
     public FaseSalida(){ }
     
-    // metodos de la clase
+    // <-- [ metodos de la clase ]-->
     public String faseDeSalida (int sumCaraDados , int numFaseSalida){
         if ( sumCaraDados == 7 || sumCaraDados == 11 ) {// Si gana en la fase de salida
             estado = "GANO";
@@ -53,5 +48,5 @@ public class FaseSalida {
             System.out.println ( "El punto es " + sumCaraDados );
         }
         return estado;
-    }
-}
+    }// fin faseDeSalida
+}// fin-class FaseSalida

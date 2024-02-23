@@ -1,21 +1,31 @@
 package juegocraps;
 import java.util.Scanner;
+/**
+ * @author Andrés Bravo - Sayuri Reyes
+ * @version Beta 1.0.1
+ */
 public class JuegoCraps {
+<<<<<<< HEAD
 	// atributos // primer commit
 	// segundo commit
 	// tercer commit
 	// rama_Desarrollo commit 1
 
+=======
+	// <-- [ Atributos ]-->
+>>>>>>> master
 	public static Scanner lector = new Scanner ( System.in );
     public static String estadoJuego = " ";
     private static Apuestas a1;
     private static Dados d1;
     private static Menu m1;
     private static FaseSalida fsalida;
-    private static FasePunto fpunto;// commit
+    private static FasePunto fpunto;
+    // <-- [ Constructores ]-->
     public JuegoCraps(){}
     /**
      * Función principal que ejecuta el juego
+     * Pendiente de controlar errores y realizar más tests
      */
     public static void main ( String[] args ) {
         // inicializamos variables
@@ -23,7 +33,7 @@ public class JuegoCraps {
         char opEscogida;
         do {
             m1 = new Menu ();
-            fsalida = new FaseSalida ();// Segundo Commit
+            fsalida = new FaseSalida ();
             fpunto = new FasePunto ();
             int contGanaFasePunto = 0;
             int contPierdeFasePunto = 0;
@@ -47,7 +57,7 @@ public class JuegoCraps {
                 System.out.print ( " Ingresa en número que quieres apostar = " );
                 int n = lector.nextInt ();
                 int flagErr = a1.numerosApostados ( n ) ;
-                if (flagErr == 0) {
+                if (flagErr == 0) {// comprobar este flag
                 	a1.getApuestas ()[i] = n;	
                 } 
                 while (flagErr == -1) {
