@@ -49,7 +49,7 @@ public class JuegoCraps {
                 System.out.print ( " Ingresa en número que quieres apostar = " );
                 int n = lector.nextInt ();
                 int flagErr = a1.numerosApostados ( n ) ;
-                if (flagErr == 0) {
+                if (flagErr == 0) {// comprobar este flag
                 	a1.getApuestas ()[i] = n;	
                 } 
                 while (flagErr == -1) {
