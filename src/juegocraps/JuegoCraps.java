@@ -1,5 +1,8 @@
 package juegocraps;
 import java.util.Scanner;
+/**
+ * @branch desarrollo_Test_JuegoCraps
+ */
 public class JuegoCraps {
 	// <-- [ Atributos ]-->
 	// rama_Desarrollo commit 1
