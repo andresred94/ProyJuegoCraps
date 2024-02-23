@@ -3,6 +3,7 @@ import java.util.Scanner;
 /**
  * @author Andrés Bravo - Sayuri Reyes
  * @version Beta 1.0.1
+ * @branch master
  */
 public class JuegoCraps {
 	// <-- [ Atributos ]-->
