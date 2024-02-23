@@ -1,6 +1,7 @@
 package juegocraps;
 import java.util.Scanner;
 /**
+ * @version rama_desarrollo v1.0.0
  * @branch desarrollo_Test_JuegoCraps
  */
 public class JuegoCraps {
